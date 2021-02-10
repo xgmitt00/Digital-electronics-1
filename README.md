@@ -1,6 +1,6 @@
 # Digital-electronics-1
 
-## Labs
+## Labiny
 
 **Links**
 
