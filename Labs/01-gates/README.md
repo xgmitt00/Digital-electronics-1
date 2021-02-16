@@ -17,3 +17,7 @@ begin
 
 end architecture dataflow;
 ```
+
+### De Morgan's law simulation
+
+
