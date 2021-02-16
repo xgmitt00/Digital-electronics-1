@@ -54,3 +54,7 @@ begin
 
 end architecture dataflow;
 ```
+
+### Distributive law simulation
+
+![Sim_2](Images/Sim2.PNG)
