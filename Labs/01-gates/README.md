@@ -22,4 +22,4 @@ end architecture dataflow;
 
 ### De Morgan's law simulation
 
-![Sim_1](/Images/demorgan.PNG)
+![Sim_1](Labs/01-gates/Images/Sim1.PNG)
