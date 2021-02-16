@@ -24,7 +24,7 @@ end architecture dataflow;
 
 ![Sim_1](Images/Sim1.PNG)
 
-#### Table
+### Table
 | **c** | **b** |**a** | **f(c,b,a)** | **f_nand(c,b,a)** | **f_nor(c,b,a)** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 | 1 | 1 |
