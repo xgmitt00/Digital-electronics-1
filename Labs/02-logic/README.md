@@ -33,3 +33,13 @@ https://www.edaplayground.com/x/V6fH
 ### Karnaugh maps
 
 #### B is greater than A
+
+![B is greater than A](/Images/1.PNG)
+
+#### B equals A
+
+![B equals A](/Images/2.PNG)
+
+#### B is less than A
+
+![B is greater than A](/Images/3.PNG)
