@@ -29,3 +29,7 @@ https://www.edaplayground.com/x/V6fH
 | 13 | 1 1 | 0 1 | 1 | 0 | 0 |
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
+
+### Karnaugh maps
+
+#### B is greater than A
