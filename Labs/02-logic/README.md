@@ -124,3 +124,5 @@ end architecture Behavioral;
 ```
 
 ### Simulator console output with one reported error
+
+![console](Images/console.PNG)
