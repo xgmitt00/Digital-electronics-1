@@ -71,4 +71,54 @@ end architecture Behavioral;
 ### VHDL stimulus process
 
 ```vhdl
+ p_stimulus : process
+    begin
+        
+        report "Stimulus process started" severity note;
+
+
+		s_b <= "0101"; s_a <= "0000"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
+		report "Test failed for input combination: 0101, 0000" severity error;
+
+		s_b <= "0101"; s_a <= "0001"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 0101, 0001" severity error;
+
+		s_b <= "0101"; s_a <= "0010"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 0101, 0010" severity error;
+
+		s_b <= "0101"; s_a <= "0011"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 0101, 0011" severity error;
+
+		s_b <= "0101"; s_a <= "0100"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 0101, 0100" severity error;
+
+		s_b <= "0101"; s_a <= "0101"; wait for 100 ns;
+		assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 0101, 0101" severity error;
+
+		s_b <= "0101"; s_a <= "0110"; wait for 100 ns;
+		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
+		report "Test failed for input combination: 0101, 0110" severity error;
+
+		s_b <= "0101"; s_a <= "0111"; wait for 100 ns;
+		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
+		report "Test failed for input combination: 0101, 0111" severity error;
+
+		s_b <= "0101"; s_a <= "1000"; wait for 100 ns;
+		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
+		report "Test failed for input combination: 0101, 1000" severity error;
+
+		s_b <= "0101"; s_a <= "1001"; wait for 100 ns;
+		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
+		report "Test failed for input combination: 0101, 1001" severity error;
+        
+
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
 ```
