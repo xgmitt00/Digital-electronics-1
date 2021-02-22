@@ -122,3 +122,5 @@ end architecture Behavioral;
         wait;
     end process p_stimulus;
 ```
+
+### simulator console output with one reported error
