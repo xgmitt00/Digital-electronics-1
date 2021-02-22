@@ -3,7 +3,7 @@
 https://github.com/xgmitt00/Digital-electronics-1
 
 
-## 2 bit comparator
+## 2-bit comparator
 
 ### Link
 
@@ -48,3 +48,6 @@ https://www.edaplayground.com/x/V6fH
 
 
 ![equations](Images/eq.PNG)
+
+## 4-bit binary comparator
+
