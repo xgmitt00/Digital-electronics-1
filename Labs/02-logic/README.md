@@ -2,6 +2,13 @@
 
 https://github.com/xgmitt00/Digital-electronics-1
 
+
+## 2 bit comparator
+
+### Link
+
+### Table
+
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 0 | 0 0 | 0 | 1 | 0 |
