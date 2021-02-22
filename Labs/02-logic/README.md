@@ -47,4 +47,4 @@ https://www.edaplayground.com/x/V6fH
 ### Equations of simplified SoP form of the "greater than" function and simplified PoS form of the "less than" function
 
 
-![equations](Images/eq.png)
+![equations](Images/eq.PNG)
