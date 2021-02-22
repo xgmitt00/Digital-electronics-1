@@ -67,3 +67,8 @@ begin
 
 end architecture Behavioral;
 ```
+
+### VHDL stimulus process
+
+```vhdl
+```
