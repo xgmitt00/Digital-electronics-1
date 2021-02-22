@@ -123,4 +123,4 @@ end architecture Behavioral;
     end process p_stimulus;
 ```
 
-### simulator console output with one reported error
+### Simulator console output with one reported error
