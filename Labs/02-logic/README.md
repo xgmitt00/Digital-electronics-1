@@ -55,3 +55,5 @@ https://www.edaplayground.com/x/V6fH
 
 https://www.edaplayground.com/x/vPhe
 
+### VHDL architecture
+
