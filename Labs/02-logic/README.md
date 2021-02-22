@@ -51,3 +51,7 @@ https://www.edaplayground.com/x/V6fH
 
 ## 4-bit binary comparator
 
+### Link
+
+https://www.edaplayground.com/x/vPhe
+
