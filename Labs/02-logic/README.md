@@ -45,3 +45,6 @@ https://www.edaplayground.com/x/V6fH
 ![B is greater than A](Images/3.png)
 
 ### Equations of simplified SoP form of the "greater than" function and simplified PoS form of the "less than" function
+
+
+![B is greater than A](Images/eq.png)
