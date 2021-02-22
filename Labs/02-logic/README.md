@@ -42,4 +42,4 @@ https://www.edaplayground.com/x/V6fH
 
 #### B is less than A
 
-![B is greater than A](/Images/3.png)
+![B is greater than A](Images/3.png)
