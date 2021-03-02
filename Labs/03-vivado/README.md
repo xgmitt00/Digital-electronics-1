@@ -94,6 +94,7 @@ end architecture Behavioral;
 
 ### Project creation
 
+Click on Create Project after program had started.
 ![1](Images/1.PNG)
 ![2](Images/2.PNG)
 ![3](Images/3.PNG)
