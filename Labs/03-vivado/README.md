@@ -18,3 +18,5 @@ https://github.com/xgmitt00/Digital-electronics-1
 | V10 | sel_i[1] | SW7 |
 | H17 | f_o[0] | LD0 |
 | K15 | f_o[1] | LD1 |
+
+##
