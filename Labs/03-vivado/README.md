@@ -119,8 +119,6 @@ Right click on Desing Sources and select Add Sources.
 ![10](Images/10.PNG)
 
 ![11](Images/11.PNG)
-
-Create new source file.
 ![12](Images/12.PNG)
 
 ### Running simulation
