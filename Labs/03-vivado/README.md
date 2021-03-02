@@ -86,3 +86,4 @@ end architecture Behavioral;
         wait;
     end process p_stimulus;
 ```
+### Simulation
