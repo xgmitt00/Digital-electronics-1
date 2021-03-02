@@ -21,4 +21,4 @@ https://github.com/xgmitt00/Digital-electronics-1
 
 ## Two-bit wide 4-to-1 multiplexer
 
-
+### VHDL architecture
