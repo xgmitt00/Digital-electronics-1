@@ -97,8 +97,14 @@ end architecture Behavioral;
 Click on Create Project after program had started.
 ![1](Images/1.PNG)
 ![2](Images/2.PNG)
+
+Enter the name of your project and click Next
 ![3](Images/3.PNG)
+
+Choose RTL Project
 ![4](Images/4.PNG)
+
+Select target and simulator languages and create source file
 ![5](Images/5.PNG)
 ![6](Images/6.PNG)
 ![7](Images/7.PNG)
