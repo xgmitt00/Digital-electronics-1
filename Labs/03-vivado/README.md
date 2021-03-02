@@ -106,3 +106,7 @@ end architecture Behavioral;
 
 ### Adding testbench file
 
+![10](Images/10.PNG)
+![11](Images/11.PNG)
+![12](Images/12.PNG)
+
