@@ -19,4 +19,6 @@ https://github.com/xgmitt00/Digital-electronics-1
 | H17 | f_o[0] | LD0 |
 | K15 | f_o[1] | LD1 |
 
-##
+## Two-bit wide 4-to-1 multiplexer
+
+
