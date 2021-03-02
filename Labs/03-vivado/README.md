@@ -115,12 +115,16 @@ Switch to Boards and select Nexys A7-50T from the list.
 
 ### Adding testbench file
 
+Right click on Desing Sources and select Add Sources.
 ![10](Images/10.PNG)
 ![11](Images/11.PNG)
+
+Create new source file.
 ![12](Images/12.PNG)
 
 ### Running simulation
 
+Click on Run Simulation and select Run Behavioral Simulation.
 ![13](Images/13.PNG)
 
 ### Adding XDC constraints file
