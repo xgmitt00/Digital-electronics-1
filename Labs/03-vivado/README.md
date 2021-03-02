@@ -87,3 +87,5 @@ end architecture Behavioral;
     end process p_stimulus;
 ```
 ### Simulation
+
+![Simu](/Images/lab3/simulation.png)
