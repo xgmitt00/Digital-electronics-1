@@ -88,4 +88,4 @@ end architecture Behavioral;
 ```
 ### Simulation
 
-![Simu](/Images/lab3/simulation.png)
+![Sim](Images/sim.PNG)
