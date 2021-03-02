@@ -94,13 +94,15 @@ end architecture Behavioral;
 
 ### Project creation
 
-![Sim](Images/1.PNG)
-![Sim](Images/2.PNG)
-![Sim](Images/3.PNG)
-![Sim](Images/4.PNG)
-![Sim](Images/5.PNG)
-![Sim](Images/6.PNG)
-![Sim](Images/7.PNG)
-![Sim](Images/8.PNG)
-![Sim](Images/9.PNG)
+![1](Images/1.PNG)
+![2](Images/2.PNG)
+![3](Images/3.PNG)
+![4](Images/4.PNG)
+![5](Images/5.PNG)
+![6](Images/6.PNG)
+![7](Images/7.PNG)
+![8](Images/8.PNG)
+![9](Images/9.PNG)
+
+### Adding testbench file
 
