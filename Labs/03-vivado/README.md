@@ -93,3 +93,14 @@ end architecture Behavioral;
 ## Vivado tutorial
 
 ### Project creation
+
+![Sim](Images/1.PNG)
+![Sim](Images/2.PNG)
+![Sim](Images/3.PNG)
+![Sim](Images/4.PNG)
+![Sim](Images/5.PNG)
+![Sim](Images/6.PNG)
+![Sim](Images/7.PNG)
+![Sim](Images/8.PNG)
+![Sim](Images/9.PNG)
+
