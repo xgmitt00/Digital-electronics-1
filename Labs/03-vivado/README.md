@@ -115,3 +115,7 @@ end architecture Behavioral;
 ![13](Images/13.PNG)
 
 ### Adding XDC constraints file
+
+![14](Images/14.PNG)
+![15](Images/15.PNG)
+![16](Images/16.PNG)
