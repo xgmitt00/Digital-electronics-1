@@ -110,3 +110,5 @@ end architecture Behavioral;
 ![11](Images/11.PNG)
 ![12](Images/12.PNG)
 
+### Running simulation
+
