@@ -113,3 +113,5 @@ end architecture Behavioral;
 ### Running simulation
 
 ![13](Images/13.PNG)
+
+### Adding XDC constraints file
