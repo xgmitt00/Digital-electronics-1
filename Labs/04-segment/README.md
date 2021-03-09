@@ -46,8 +46,6 @@ https://github.com/xgmitt00/Digital-electronics-1
 ## Seven-segment display decoder
 ### VHDL architecture from hex_7seg.vhd
 
-### VHDL stimulus process from testbench
-
 ```vhdl
 architecture behavioral of hex_7seg is
 begin
@@ -91,6 +89,10 @@ begin
 
 end architecture behavioral;
 ```
+
+### VHDL stimulus process from testbench
+
+
 
 ### Simulation
 
