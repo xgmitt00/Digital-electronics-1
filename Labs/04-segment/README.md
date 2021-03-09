@@ -51,3 +51,11 @@ https://github.com/xgmitt00/Digital-electronics-1
 ### Simulation
 
 ### VHDL code from top.vhd
+
+## LED(7:4) indicators
+
+### Truth table
+
+### VHDL code for LEDs(7:4)
+
+### Simulation
