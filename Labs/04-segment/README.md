@@ -42,3 +42,12 @@ https://github.com/xgmitt00/Digital-electronics-1
 | d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
+
+## Seven-segment display decoder
+### VHDL architecture from hex_7seg.vhd
+
+### VHDL stimulus process from testbench
+
+### Simulation
+
+### VHDL code from top.vhd
