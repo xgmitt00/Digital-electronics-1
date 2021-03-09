@@ -2,7 +2,9 @@
 
 https://github.com/xgmitt00/Digital-electronics-1
 
-## Table
+## Table with connection of 7-segment displays on Nexys A7 board
+
+## Decoder truth table
 
 | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
