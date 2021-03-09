@@ -121,6 +121,8 @@ end process p_stimulus;
 
 ### Simulation
 
+![Sim](Images/1.PNG)
+
 ### VHDL code from top.vhd
 
 ```vhdl
@@ -178,3 +180,5 @@ end Behavioral;
     LED(7)  <= '1' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000") else '0'; 
 ```
 ### Simulation
+
+![Sim](Images/2.PNG)
