@@ -123,6 +123,29 @@ end process p_stimulus;
 
 ### VHDL code from top.vhd
 
+```vhdl
+architecture Behavioral of top1 is
+begin
+hex2seg : entity work.hex_7seg
+    port map(
+        hex_i  =>   SW,
+        seg_o(6)  =>    CA,
+        seg_o(5)  =>    CB,
+        seg_o(4)  =>    CC,
+        seg_o(3)  =>    CD,
+        seg_o(2)  =>    CE,
+        seg_o(1)  =>    CF,
+        seg_o(0)  =>    CG
+    );   
+    AN <= "11110111";
+    LED(3 downto 0) <= SW;
+    LED(4)  <= '1' when (SW = "0000") else '0';
+    LED(5)  <= '1' when (SW > "1001") else '0';
+    LED(6)  <= '1' when (SW = "0001" or SW = "0011" or SW = "0101" or SW = "0111" or SW = "1001" or SW = "1011" or SW = "1101" or SW = "1111") else '0';
+    LED(7)  <= '1' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000") else '0';   
+end Behavioral;
+```
+
 ## LED(7:4) indicators
 
 ### Truth table
