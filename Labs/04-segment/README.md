@@ -124,7 +124,7 @@ end process p_stimulus;
 ### VHDL code from top.vhd
 
 ```vhdl
-architecture Behavioral of top1 is
+architecture Behavioral of top is
 begin
 hex2seg : entity work.hex_7seg
     port map(
