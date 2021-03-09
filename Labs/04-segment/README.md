@@ -48,6 +48,50 @@ https://github.com/xgmitt00/Digital-electronics-1
 
 ### VHDL stimulus process from testbench
 
+```vhdl
+architecture behavioral of hex_7seg is
+begin
+
+    p_7seg_decoder : process(hex_i)
+    begin
+        case hex_i is
+            when "0000" => seg_o <= "0000001";
+            
+            when "0001" => seg_o <= "1001111";
+            
+            when "0010" => seg_o <= "0010010";
+                
+            when "0011" => seg_o <= "0000110";
+                
+            when "0100" => seg_o <= "1001100";
+                
+            when "0101" => seg_o <= "0100100";
+                
+            when "0110" => seg_o <= "0100000";
+                
+            when "0111" => seg_o <= "0001111";
+                
+            when "1000" => seg_o <= "0000000";
+                
+            when "1001" => seg_o <= "0000100";
+                
+            when "1010" => seg_o <= "0001000";
+                
+            when "1011" => seg_o <= "1100000";
+                
+            when "1100" => seg_o <= "0110001";
+                
+            when "1101" => seg_o <= "1000010";
+    
+            when "1110" => seg_o <= "0110000";     
+                
+            when "1111" => seg_o <= "0111000";     
+        end case;
+    end process p_7seg_decoder;
+
+end architecture behavioral;
+```
+
 ### Simulation
 
 ### VHDL code from top.vhd
