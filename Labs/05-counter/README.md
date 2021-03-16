@@ -36,3 +36,4 @@ https://github.com/xgmitt00/Digital-electronics-1
 | 1&nbsp;sec | 100 000 000 | `x"5f5_e100"` | `b"0101_1111_0101_1110_0001_0000_0000"` |
 
 ## Bidirectional counter
+### Listing of VHDL code
