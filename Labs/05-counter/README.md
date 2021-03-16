@@ -57,3 +57,6 @@ begin
     end process p_cnt_up_down;
 end architecture behavioral;
 ```
+### VHDL reset and stimulus processes from testbench
+```vhdl
+```
