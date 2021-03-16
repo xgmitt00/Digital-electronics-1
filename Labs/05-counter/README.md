@@ -147,3 +147,6 @@ begin
     AN <= b"1111_1110";
 end architecture Behavioral;
 ```
+### Image of the top layer including both counters
+
+![Sim](Images/1.png)
