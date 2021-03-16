@@ -86,6 +86,8 @@ end architecture behavioral;
 ```
 ### Screenshot with simulated time waveforms
 
+![Sim](Images/1.PNG)
+
 ## Top level
 ### Listing of VHDL code
 ```vhdl
