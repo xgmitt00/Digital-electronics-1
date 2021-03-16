@@ -149,4 +149,4 @@ end architecture Behavioral;
 ```
 ### Image of the top layer including both counters
 
-![Sim](Images/1.png)
+![Sim](/Images/1.png)
