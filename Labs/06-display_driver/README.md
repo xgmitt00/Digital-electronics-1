@@ -163,3 +163,5 @@ begin
     AN(7 downto 4) <= b"1111";
 end architecture Behavioral;
 ```
+## Eight-digit driver
+### Image of the driver schematic
