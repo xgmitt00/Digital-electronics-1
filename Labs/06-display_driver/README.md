@@ -165,3 +165,4 @@ end architecture Behavioral;
 ```
 ## Eight-digit driver
 ### Image of the driver schematic
+![Sim](Images/3.png)
