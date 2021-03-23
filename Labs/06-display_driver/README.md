@@ -122,3 +122,7 @@ begin
     end process p_stimulus;
 end architecture testbench;
 ```
+### Screenshot with simulated time waveforms
+![Sim](Images/2.PNG)
+
+### VHDL architecture of the top layer
