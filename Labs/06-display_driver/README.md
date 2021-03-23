@@ -91,11 +91,32 @@ begin
     p_stimulus : process
     begin
         report "Stimulus process started" severity note;
+        report "T1" severity note;
         s_data3 <= "0011";
+        wait for 10 ns;
+        assert (s_seg_o = "0000110")
+        report "T1 failed" severity error;
+        
+        report "T2" severity note;
         s_data2 <= "0001";
+        wait for 10 ns;
+        assert (s_seg_o = "1001111")
+        report "T2 failed" severity error; 
+        
+        report "T3" severity note;
         s_data1 <= "0100";
-        s_data0 <= "0010";     
+        wait for 10 ns;
+        assert (s_seg_o = "1001100")
+        report "T3 failed" severity error; 
+        
+        report "T4" severity note;
+        s_data0 <= "0010";
+        wait for 10 ns;
+        assert (s_seg_o = "0010010")
+        report "T4 failed" severity error; 
+               
         s_dp_i <= "0111";
+
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
