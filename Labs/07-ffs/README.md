@@ -4,6 +4,10 @@ https://github.com/xgmitt00/Digital-electronics-1
 
 ## Characteristic equations and completed tables for flip-flops
 
+### Equations
+
+![Sim](Images/7.PNG)
+
 ### Table for D
 | D | Qn | Q(n+1) | Comments |
 | :-: | :-: | :-: | :-- |
