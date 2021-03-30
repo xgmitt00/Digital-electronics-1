@@ -153,4 +153,4 @@ begin
     end if;
 end process d_ff_rst;
 ```
-### 
+### p_jk_ff_rst
