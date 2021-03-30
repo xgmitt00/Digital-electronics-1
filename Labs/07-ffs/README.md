@@ -31,3 +31,9 @@ https://github.com/xgmitt00/Digital-electronics-1
 | 0 | 1 | 1 | Memory |
 | 1 | 0 | 1 | Inverter |
 | 1 | 1 | 0 | Inverter |
+
+## D latch
+### VHDL code listing of the process p_d_latch
+```vhdl
+
+```
