@@ -245,3 +245,8 @@ end process t_ff_rst;
 ```
 ### Screenshot with simulated time waveforms
 ### d_ff_rst
+### Screenshot with simulated time waveforms
+### jk_ff_rst
+### Screenshot with simulated time waveforms
+### t_ff_rst
+### Screenshot with simulated time waveforms
