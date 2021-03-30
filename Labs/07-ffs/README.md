@@ -298,6 +298,66 @@ p_stimulus : process
 ```
 ### Screenshot with simulated time waveforms
 ### jk_ff_rst
+```vhdl
+p_clk_gen : process
+    begin
+        while now < 750 ns loop         
+            s_clk_100MHz <= '0';
+            wait for c_CLK_100MHZ_PERIOD / 2;
+            s_clk_100MHz <= '1';
+            wait for c_CLK_100MHZ_PERIOD / 2;
+        end loop;
+        wait;
+    end process p_clk_gen;
+        
+p_reset_gen : process
+    begin
+        s_rst <= '0';
+        wait for 28 ns;
+        s_rst <= '1';
+        wait for 13 ns;
+        s_rst <= '0';
+        wait for 17 ns;        
+        s_rst <= '1';
+        wait for 33 ns;        
+        s_rst <= '0';
+        wait for 53 ns;       
+        s_rst <= '1';
+        wait;
+    end process p_reset_gen;
+
+p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;       
+        s_j <= '0';
+        s_k <= '0';        
+        wait for 40 ns;
+        s_j <= '0';
+        s_k <= '0';        
+        wait for 7 ns;
+        s_j <= '0';
+        s_k <= '1';        
+        wait for 7 ns;
+        s_j <= '1';
+        s_k <= '0';
+        wait for 7 ns;
+        s_j <= '1';
+        s_k <= '1';        
+        wait for 7 ns;
+        s_j <= '0';
+        s_k <= '0';        
+        wait for 7 ns;
+        s_j <= '0';
+        s_k <= '1';     
+        wait for 7 ns;
+        s_j <= '1';
+        s_k <= '0';
+        wait for 7 ns;
+        s_j <= '1';
+        s_k <= '1';        
+        report "Stimulus process finished" severity note;    
+    end process p_stimulus;
+```
 ### Screenshot with simulated time waveforms
 ### t_ff_rst
 ### Screenshot with simulated time waveforms
