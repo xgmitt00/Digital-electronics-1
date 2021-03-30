@@ -124,6 +124,8 @@ end process p_d_latch;
 ```
 ### Screenshot with simulated time waveforms
 
+![Sim](Images/1.PNG)
+
 ## Flip-flops
 ## VHDL code listing of the processes
 ### p_d_ff_arst
@@ -244,6 +246,9 @@ end process t_ff_rst;
     end process p_stimulus;
 ```
 ### Screenshot with simulated time waveforms
+
+![Sim](Images/2.PNG)
+
 ### d_ff_rst
 ```vhdl
 p_clk_gen : process
@@ -297,6 +302,9 @@ p_stimulus : process
     end process p_stimulus;
 ```
 ### Screenshot with simulated time waveforms
+
+![Sim](Images/3.PNG)
+
 ### jk_ff_rst
 ```vhdl
 p_clk_gen : process
@@ -359,6 +367,9 @@ p_stimulus : process
     end process p_stimulus;
 ```
 ### Screenshot with simulated time waveforms
+
+![Sim](Images/4.PNG)
+
 ### t_ff_rst
 ```vhdl
 p_clk_gen : process
@@ -415,3 +426,5 @@ p_stimulus : process
     end process p_stimulus;
 ```
 ### Screenshot with simulated time waveforms
+
+![Sim](Images/5.PNG)
