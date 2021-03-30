@@ -216,7 +216,7 @@ end process t_ff_rst;
         s_arst <= '1';
         wait;
     end process p_reset_gen;   
-    ---------------------------------------------     
+ 
     p_stimulus : process
     begin
         report "Stimulus process started" severity note;      
