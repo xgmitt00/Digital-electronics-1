@@ -431,3 +431,5 @@ p_stimulus : process
 
 ## Shift register
 ### Image of the shift register schematic
+
+![Sim](Images/6.png)
