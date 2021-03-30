@@ -139,3 +139,4 @@ end process p_d_latch;
         end if;
     end process p_d_latch;
 ```
+### p_d_ff_rst
