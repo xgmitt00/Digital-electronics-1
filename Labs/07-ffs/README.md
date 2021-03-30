@@ -125,3 +125,4 @@ end process p_d_latch;
 ### Screenshot with simulated time waveforms
 
 ## Flip-flops
+## VHDL code listing of the processes
