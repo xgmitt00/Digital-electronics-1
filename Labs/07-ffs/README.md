@@ -192,7 +192,7 @@ begin
 end process t_ff_rst;
 ```
 ## Listing of VHDL clock, reset and stimulus processes from the testbench files
-### p_d_ff_arst
+### d_ff_arst
 ```vhdl
     p_clk_gen : process
     begin
@@ -242,4 +242,6 @@ end process t_ff_rst;
         s_d <= '1';      
         report "Stimulus process finished" severity note;    
     end process p_stimulus;
-```    
+```
+### Screenshot with simulated time waveforms
+### d_ff_rst
