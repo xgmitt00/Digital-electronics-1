@@ -127,3 +127,6 @@ end process p_d_latch;
 ## Flip-flops
 ## VHDL code listing of the processes
 ### p_d_ff_arst
+```vhdl
+
+```
