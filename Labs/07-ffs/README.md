@@ -128,5 +128,14 @@ end process p_d_latch;
 ## VHDL code listing of the processes
 ### p_d_ff_arst
 ```vhdl
-
+    p_d_latch : process (clk, arst)
+    begin
+        if (arst = '1') then
+            q <= '0';
+            q_bar <= '1';
+        elsif rising_edge(clk) then
+            q <= d;
+            q_bar <= not(d);
+        end if;
+    end process p_d_latch;
 ```
