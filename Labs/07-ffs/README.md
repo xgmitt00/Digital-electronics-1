@@ -98,7 +98,7 @@ end process p_d_latch;
         s_d <= '1';
         wait for 10 ns;
         s_d <= '0';
-        wait for 100 ns;
+        wait for 10 ns;
         s_d <= '1';       
         s_en <= '0';        
         wait for 10 ns;
