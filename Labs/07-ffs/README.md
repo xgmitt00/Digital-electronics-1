@@ -46,3 +46,79 @@ begin
     end if;
 end process p_d_latch;
 ```
+### Listing of VHDL reset and stimulus processes from the testbench 
+```vhdl
+ p_reset_gen : process
+    begin
+        s_arst <= '0';
+        wait for 40 ns;        
+        s_arst <= '1';
+        wait for 150 ns;
+        s_arst <= '0';
+        wait;
+    end process p_reset_gen;    
+    ---------------------------------------------      
+    p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;       
+        s_d <= '0';
+        s_en <= '0';             
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        s_d <= '1';        
+        s_en <= '1';       
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 100 ns;
+        s_d <= '1';       
+        s_en <= '0';        
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        s_d <= '1';
+        wait for 10 ns;
+        s_d <= '0';
+        wait for 10 ns;
+        s_d <= '1';        
+        report "Stimulus process finished" severity note;    
+    end process p_stimulus;
+```
