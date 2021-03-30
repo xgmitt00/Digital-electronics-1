@@ -428,3 +428,6 @@ p_stimulus : process
 ### Screenshot with simulated time waveforms
 
 ![Sim](Images/5.PNG)
+
+## Shift register
+### Image of the shift register schematic
