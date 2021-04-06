@@ -22,6 +22,9 @@ https://github.com/xgmitt00/Digital-electronics-1
 
 ## Traffic light controller
 ### State diagram
+
+![3](Images/3.png)
+
 ### Listing of VHDL code of sequential process p_traffic_fsm
 ```vhdl
 p_traffic_fsm : process(clk)
@@ -127,6 +130,9 @@ end process p_output_fsm;
 | `OPTION1` | red | red | 0 sec | `WEST_GO` | `WEST_GO` | `SOUTH_GO` | `WEST_GO` |
 | `OPTION2` | red | red | 0 sec | `SOUTH_GO` | `WEST_GO` | `SOUTH_GO` | `SOUTH_GO` |
 ### State diagram
+
+![4](Images/4.png)
+
 ### Listing of VHDL code of sequential process p_smart_traffic_fsm
 ```vhdl
 p_smart_traffic_fsm : process(clk)
