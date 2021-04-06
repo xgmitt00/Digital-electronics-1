@@ -112,6 +112,8 @@ end process p_output_fsm;
 ```
 ### Screenshot(s) of the simulation
 
+![2](Images/2.PNG)
+
 ## Smart controller
 ### State table
 | **Current state** | **Direction South** | **Direction West** | **Delay** | **No Cars** | **Cars to West** | **Cars to South** | **Cars both directions** |
