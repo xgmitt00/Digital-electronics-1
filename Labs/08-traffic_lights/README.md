@@ -18,6 +18,8 @@ https://github.com/xgmitt00/Digital-electronics-1
 | LD16 | N15, M16, R12 | `1,0,0` | `1,1,0` | `0,1,0` |
 | LD17 | N16, R11, G14 | `1,0,0` | `1,1,0` | `0,1,0` |
 
+![1](/Images/1.png)
+
 ## Traffic light controller
 ### State diagram
 ### Listing of VHDL code of sequential process p_traffic_fsm
